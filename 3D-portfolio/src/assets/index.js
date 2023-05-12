@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import boyanlogo from './boyank-logo-files/svg/logo-no-background.svg'
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -33,6 +33,7 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  boyanlogo,
   backend,
   creator,
   mobile,
