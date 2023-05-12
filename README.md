@@ -4,7 +4,7 @@ This is a portfolio website built using React and Three.js, a 3D library for Jav
 
 ## Demo 
 
-A live demo of the website can be found at [https://my-3d-portfolio.com](https://my-3d-portfolio.com)
+A live demo of the website can be found soon ...
 
 ## Features
 
