@@ -24,13 +24,18 @@ const Navbar = () => {
                         Web <span className='sm:block hidden text-red-200'>| Portfolio</span>
                     </p>
                 </Link>
-                <ul>
-                    {navLinks.map(link => {
-                        console.log(link);
-                        <li>
-                            <a>{link.title}</a>
+                <ul className='list-none hidden sm:flex flex-row gap-10'>
+                    {navLinks.map((nav) => (
+                        <li
+                            key={nav.id}
+                            className={`${
+                                active === nav.title ? 'text-white' : 'text-secondary'
+                            } hover:text-white text-[18px] font-medium cursor-pointer`}
+                            onClick={() => setActive(nav.title)}
+                        >
+                            <a href={`#${nav.id}`}>{nav.title}</a>
                         </li>
-                    })}
+                    ))}
                 </ul>
             </div>
         </nav>
