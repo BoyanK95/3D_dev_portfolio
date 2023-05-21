@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { navLinks } from '../constants';
-import { logo, menu, close, boyanlogo } from '../assets';
+import { logo, menu, close, boyanlogo, boyanpurplelogo } from '../assets';
 import { styles } from '../style';
 
 const Navbar = () => {
@@ -20,10 +20,10 @@ const Navbar = () => {
                         window.scrollTo(0, 0);
                     }}
                 >
-                    <img style={{ maxWidth: '20rem' }} src={boyanlogo} className='w-10 h-10 object-contain' />
+                    <img style={{ maxWidth: '20rem' }} src={boyanpurplelogo} className='w-10 h-10 object-contain' />
                     <p className='text-white text-[17px] font-bold 
                     flex'>
-                        BoyanK &nbsp;<span className='sm:block hidden text-red-200'>| Portfolio</span>
+                        BoyanK &nbsp;<span className='sm:block hidden text-purple-300'>| Portfolio</span>
                     </p>
                 </Link>
                 <ul className='list-none hidden sm:flex flex-row gap-10'>
