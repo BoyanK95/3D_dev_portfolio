@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../style';
+import ComputerCanvas from './canvas/Computer';
 
 const Hero = () => {
     return (
@@ -22,6 +23,7 @@ const Hero = () => {
                     </p>
                 </div>
             </div>
+            <ComputerCanvas />
         </section>
     );
 };
