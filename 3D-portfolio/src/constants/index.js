@@ -51,7 +51,7 @@ const services = [
     },
     {
         title: 'Wordpress/Shopify',
-        icon: web
+        icon: creator
     },
     {
         title: 'React Native Developer in training',
