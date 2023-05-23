@@ -23,7 +23,7 @@ A live demo of the website can be found soon ...
 
 ## Usage
 
-After starting the development server, the website can be accessed in a web browser by navigating to [http://localhost:3000](http://localhost:3000)
+After starting the development server, the website can be accessed in a web browser by navigating to [http://localhost:5173](http://localhost:5173)
 
 ## Built with
 
