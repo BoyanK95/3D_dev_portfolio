@@ -189,12 +189,12 @@ const testimonials = [
 
 const projects = [
     {
-        name: 'Car Rent',
+        name: 'MeetUp App',
         description:
-            'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+            'Single-page application platform created with NextJS that allows users to create a meet up.',
         tags: [
             {
-                name: 'react',
+                name: 'nextjs',
                 color: 'blue-text-gradient'
             },
             {
@@ -202,17 +202,17 @@ const projects = [
                 color: 'green-text-gradient'
             },
             {
-                name: 'tailwind',
-                color: 'pink-text-gradient'
+                name: 'vercel',
+                color: 'black-text-gradient'
             }
         ],
         image: carrent,
-        source_code_link: 'https://github.com/'
+        source_code_link: 'https://github.com/BoyanK95/Meetup-App'
     },
     {
-        name: 'Job IT',
+        name: 'Warehouse Management App',
         description:
-            'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+            'Warehouse management application created with ReactJS for the front end and NestJS for the backend api using REST services and PosgreSQL for database ',
         tags: [
             {
                 name: 'react',
@@ -223,25 +223,25 @@ const projects = [
                 color: 'green-text-gradient'
             },
             {
-                name: 'scss',
-                color: 'pink-text-gradient'
+                name: 'nest',
+                color: 'red-text-gradient'
             }
         ],
         image: jobit,
-        source_code_link: 'https://github.com/'
+        source_code_link: 'https://github.com/BoyanK95/FinalProject_yara_internship2023'
     },
     {
-        name: 'Trip Guide',
+        name: 'Blog Events Page',
         description:
-            'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+            'A comprehensive blog platform that allows users to blog and search about events.',
         tags: [
             {
                 name: 'nextjs',
                 color: 'blue-text-gradient'
             },
             {
-                name: 'supabase',
-                color: 'green-text-gradient'
+                name: 'firebase',
+                color: 'yellow-text-gradient'
             },
             {
                 name: 'css',
