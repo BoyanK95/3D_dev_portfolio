@@ -183,7 +183,7 @@ const testimonials = [
         name: 'Denis Kanh',
         designation: 'Custumer Support',
         company: 'Crypto.com',
-        image: 'https://randomuser.me/api/portraits/women/6.jpg'
+        // image: 'https://randomuser.me/api/portraits/women/6.jpg'
     }
 ];
 
