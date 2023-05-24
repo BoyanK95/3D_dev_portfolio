@@ -210,7 +210,7 @@ const projects = [
         source_code_link: 'https://github.com/BoyanK95/Meetup-App'
     },
     {
-        name: 'Warehouse Management App',
+        name: 'Warehouse App',
         description:
             'Warehouse management application created with ReactJS for the front end and NestJS for the backend api using REST services and PosgreSQL for database ',
         tags: [
@@ -224,7 +224,7 @@ const projects = [
             },
             {
                 name: 'nest',
-                color: 'red-text-gradient'
+                color: 'pink-text-gradient'
             }
         ],
         image: jobit,
@@ -233,7 +233,7 @@ const projects = [
     {
         name: 'Blog Events Page',
         description:
-            'A comprehensive blog platform that allows users to blog and search about events.',
+            'A comprehensive single-page blog platform that allows users to blog and search about events. Created with NextJS and usuing Firebase as a Database',
         tags: [
             {
                 name: 'nextjs',
@@ -241,7 +241,7 @@ const projects = [
             },
             {
                 name: 'firebase',
-                color: 'yellow-text-gradient'
+                color: 'orange-text-gradient'
             },
             {
                 name: 'css',
