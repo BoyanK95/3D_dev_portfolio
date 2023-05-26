@@ -17,7 +17,7 @@ const About = () => {
                 variants={fadeIn('', '', 0.1, 1)}
                 className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
             >
-                I'm a skilled web developer who has focused mainly on JavaScript and it's frameworks. I've focused
+                I'm a skilled web developer who has focused mainly on JavaScript and its frameworks. I've focused
                 mainly in front-end development with <span className='text-purple-400 font-bold'>React</span> and{' '}
                 <span className='text-purple-400 font-bold'>NextJS</span>. I'm a quick learner and collaborate closely
                 with client to create efficent, scalable and user-friendly solutions that solve real-world problems.
