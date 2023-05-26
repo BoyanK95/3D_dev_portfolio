@@ -7,13 +7,54 @@ import { slideIn } from './utils/motion';
 import EarthCanvas from './canvas/Earth';
 
 const Contact = () => {
+    const newForm = { name: '', email: '', message: '' };
+
     const formRef = useRef();
-    const [isSent, setIsSent] = useState({ name: '', email: '', message: '' });
+    const [form, setForm] = useState(newForm);
     const [loading, setLoading] = useState(false);
 
-    const handleChange = (e) => {};
+    const handleChange = (e) => {
+        const { name, value } = e.target;
 
-    const handleSubmit = (e) => {};
+        setForm({ ...form, [name]: value });
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setLoading(true);
+
+        emailjs
+            .send(
+                'service_sa3mb38',
+                'template_ncie0tq',
+                {
+                    from_name: form.name,
+                    to_name: 'BoyanK95',
+                    from_email: form.email,
+                    to_email: 'b.koychev95@gmail.com',
+                    message: form.message
+                },
+                'Vh9oqoycywI9z6790'
+            )
+            .then(
+                () => {
+                    setLoading(false);
+                    alert('Thank you, I will get back to you as soon as posible!');
+                    setForm(newForm);
+                },
+                (error) => {
+                    setLoading(false);
+
+                    console.log(error);
+
+                    alert('Something went wrong!');
+                }
+            );
+    };
+
+    //Vh9oqoycywI9z6790
+    //template_ncie0tq
+    //service_sa3mb38
 
     return (
         <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
@@ -30,7 +71,7 @@ const Contact = () => {
                         <input
                             type='text'
                             name='name'
-                            // value={form.name}
+                            value={form.name}
                             onChange={handleChange}
                             placeholder="What's your name?"
                             className='py-4 bg-tertiary px-6 rounded-lg outline-none placeholder:text-secondary text-white border-none font-medium'
@@ -42,7 +83,7 @@ const Contact = () => {
                         <input
                             type='email'
                             name='email'
-                            // value={form.email}
+                            value={form.email}
                             onChange={handleChange}
                             placeholder="What's your e-mail?"
                             className='py-4 bg-tertiary px-6 rounded-lg outline-none placeholder:text-secondary text-white border-none font-medium'
@@ -54,7 +95,7 @@ const Contact = () => {
                         <textarea
                             rows='7'
                             name='message'
-                            // value={form.message}
+                            value={form.message}
                             onChange={handleChange}
                             placeholder='What do you want to say?'
                             className='py-4 bg-tertiary px-6 rounded-lg outline-none placeholder:text-secondary text-white border-none font-medium'
@@ -70,7 +111,10 @@ const Contact = () => {
                 </form>
             </motion.div>
 
-            <motion.div variants={slideIn('right', 'tween', 0.2, 1)} className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
+            <motion.div
+                variants={slideIn('right', 'tween', 0.2, 1)}
+                className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+            >
                 <EarthCanvas />
             </motion.div>
         </div>
