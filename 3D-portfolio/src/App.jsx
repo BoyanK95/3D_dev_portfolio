@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Feedback from './components/Feedback';
 import Experiance from './components/Experiance';
 import StarsCanvas from './components/StarsCanvas';
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
     return (
@@ -28,6 +29,7 @@ const App = () => {
                     {/* <StarsCanvas /> */}
                 </div>
             </div>
+            <Analytics />
         </BrowserRouter>
     );
 };
