@@ -4,7 +4,7 @@ This is a portfolio website built using React and Three.js, a 3D library for Jav
 
 ## Demo 
 
-A live demo of the website can be at:  https://dist-4czy7xwxu-boyank95.vercel.app/
+A live demo of the website can be at:  [https://dist-4czy7xwxu-boyank95.vercel.app/](https://boyank-portfolio.vercel.app/)
 
 ## Features
 
