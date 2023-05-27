@@ -66,11 +66,12 @@ const Contact = () => {
                 <h3 className={styles.sectionHeadText}>Contact.</h3>
 
                 <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8'>
-                    <label htmlFor='' className='flex flex-col'>
+                    <label htmlFor='name' className='flex flex-col'>
                         <span className='text-white font-medium mb-4'>Your Name</span>
                         <input
                             type='text'
                             name='name'
+                            id='name'
                             value={form.name}
                             onChange={handleChange}
                             placeholder="What's your name?"
@@ -78,11 +79,12 @@ const Contact = () => {
                         />
                     </label>
 
-                    <label htmlFor='' className='flex flex-col'>
+                    <label htmlFor='email' className='flex flex-col'>
                         <span className='text-white font-medium mb-4'>Your Email</span>
                         <input
                             type='email'
                             name='email'
+                            id='email'
                             value={form.email}
                             onChange={handleChange}
                             placeholder="What's your e-mail?"
@@ -90,11 +92,12 @@ const Contact = () => {
                         />
                     </label>
 
-                    <label htmlFor='' className='flex flex-col'>
+                    <label htmlFor='message' className='flex flex-col'>
                         <span className='text-white font-medium mb-4'>Your Message</span>
                         <textarea
                             rows='7'
                             name='message'
+                            id='message'
                             value={form.message}
                             onChange={handleChange}
                             placeholder='What do you want to say?'
