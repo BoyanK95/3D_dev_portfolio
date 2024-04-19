@@ -17,9 +17,9 @@ import {
     docker,
     softuni,
     yara,
-    carrent,
+    meetupAppCover,
     jobit,
-    tripguide,
+    mernApp,
     threejs
 } from '../assets';
 
@@ -149,14 +149,14 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            'I thought it was impossible to make a website as beautiful as our product, but Boyan proved me wrong.',
+            'I have worked with Boyan on several projects and I can say that he is a very reliable developer. He is always willing to help me with any problem I may have.',
         name: 'Ivaylo Ivanov',
         designation: 'Senior Software Engineer',
         company: 'EGT',
         image: 'https://randomuser.me/api/portraits/men/4.jpg'
     },
     {
-        testimonial: "I've never met a web developer who truly cares about their clients' success like Boyan Koychev.",
+        testimonial: "I've never met a web developer who truly cares about their clients needs like Boyan Koychev.",
         name: 'Georgi Dimitrov',
         designation: 'Software Engineer',
         company: 'Cognite',
@@ -167,7 +167,6 @@ const testimonials = [
         name: 'Denis Kanh',
         designation: 'Custumer Support',
         company: 'Crypto.com',
-        // image: 'https://randomuser.me/api/portraits/women/6.jpg'
     }
 ];
 
@@ -187,10 +186,10 @@ const projects = [
             },
             {
                 name: 'vercel',
-                color: 'black-text-gradient'
+                color: 'gray-text-gradient'
             }
         ],
-        image: carrent,
+        image: meetupAppCover,
         source_code_link: 'https://github.com/BoyanK95/Meetup-App'
     },
     {
@@ -215,25 +214,25 @@ const projects = [
         source_code_link: 'https://github.com/BoyanK95/FinalProject_yara_internship2023'
     },
     {
-        name: 'Blog Events Page',
+        name: 'Balcan Properties',
         description:
-            'A comprehensive single-page blog platform that allows users to blog and search about events. Created with NextJS and usuing Firebase as a Database',
+            'A MERN stack application that allows users to search for properties to rent buy and also to post their own apartments or houses in any given city ',
         tags: [
             {
-                name: 'nextjs',
+                name: 'react',
                 color: 'blue-text-gradient'
             },
             {
-                name: 'firebase',
-                color: 'orange-text-gradient'
+                name: 'mongoDB',
+                color: 'green-text-gradient'
             },
             {
                 name: 'css',
                 color: 'pink-text-gradient'
             }
         ],
-        image: tripguide,
-        source_code_link: 'https://github.com/'
+        image: mernApp,
+        source_code_link: 'https://github.com/BoyanK95/BoyanProperties'
     }
 ];
 

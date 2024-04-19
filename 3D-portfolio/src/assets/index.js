@@ -29,9 +29,9 @@ import starbucks from "./company/starbucks.png";
 import softuni from './company/softuni-blue.png';
 import tesla from "./company/tesla.png";
 import yara from './company/yara.png'
-import carrent from "./carrent.png";
+import meetupAppCover from './meetupapp.png'
+import mernApp from './mern-app.png'
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -64,8 +64,8 @@ export {
   softuni,
   tesla,
   yara,
-  carrent,
+  meetupAppCover,
   jobit,
-  tripguide,
+  mernApp,
   noprofile
 };
