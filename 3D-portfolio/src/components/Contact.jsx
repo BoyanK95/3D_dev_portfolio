@@ -52,10 +52,6 @@ const Contact = () => {
             );
     };
 
-    //Vh9oqoycywI9z6790
-    //template_ncie0tq
-    //service_sa3mb38
-
     return (
         <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
             <motion.div
@@ -69,6 +65,7 @@ const Contact = () => {
                     <label htmlFor='name' className='flex flex-col'>
                         <span className='text-white font-medium mb-4'>Your Name</span>
                         <input
+                            required
                             type='text'
                             name='name'
                             id='name'
@@ -82,6 +79,7 @@ const Contact = () => {
                     <label htmlFor='email' className='flex flex-col'>
                         <span className='text-white font-medium mb-4'>Your Email</span>
                         <input
+                            required
                             type='email'
                             name='email'
                             id='email'
