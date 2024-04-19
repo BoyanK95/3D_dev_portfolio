@@ -8,6 +8,7 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 import Feedback from './components/Feedback';
 import Experiance from './components/Experiance';
+import Footer from './components/Footer';
 
 const App = () => {
     return (
@@ -25,6 +26,7 @@ const App = () => {
                 <div className='relative z-0'>
                     <Contact />
                 </div>
+                <Footer/>
             </div>
         </BrowserRouter>
     );
