@@ -1,6 +1,5 @@
 import {
     mobile,
-    backend,
     creator,
     web,
     javascript,
@@ -16,10 +15,8 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
+    softuni,
     yara,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -123,7 +120,7 @@ const experiences = [
     {
         title: 'JS Softuni program',
         company_name: 'Softuni',
-        icon: starbucks,
+        icon: softuni,
         iconBg: '#383E56',
         date: 'March 2019 - April 2021',
         points: [
@@ -133,19 +130,6 @@ const experiences = [
             'Unit testing with Mocha and Chai'
         ]
     },
-    // {
-    //     title: 'Web Developer',
-    //     company_name: 'Shopify',
-    //     icon: shopify,
-    //     iconBg: '#383E56',
-    //     date: 'Jan 2022 - Jan 2023',
-    //     points: [
-    //         'Developing and maintaining web applications using React.js and other related technologies.',
-    //         'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-    //         'Implementing responsive design and ensuring cross-browser compatibility.',
-    //         'Participating in code reviews and providing constructive feedback to other developers.'
-    //     ]
-    // },
     {
         title: 'React-Typescript Developer',
         company_name: 'Yara International',
@@ -166,16 +150,16 @@ const testimonials = [
     {
         testimonial:
             'I thought it was impossible to make a website as beautiful as our product, but Boyan proved me wrong.',
-        name: 'Sara Lee',
-        designation: 'CFO',
-        company: 'Acme Co',
-        image: 'https://randomuser.me/api/portraits/women/4.jpg'
+        name: 'Ivaylo Ivanov',
+        designation: 'Senior Software Engineer',
+        company: 'EGT',
+        image: 'https://randomuser.me/api/portraits/men/4.jpg'
     },
     {
-        testimonial: "I've never met a web developer who truly cares about their clients' success like Boyan does.",
-        name: 'Chris Brown',
-        designation: 'COO',
-        company: 'DEF Corp',
+        testimonial: "I've never met a web developer who truly cares about their clients' success like Boyan Koychev.",
+        name: 'Georgi Dimitrov',
+        designation: 'Software Engineer',
+        company: 'Cognite',
         image: 'https://randomuser.me/api/portraits/men/5.jpg'
     },
     {

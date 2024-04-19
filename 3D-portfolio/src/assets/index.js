@@ -26,9 +26,9 @@ import noprofile from './profile-icon-anonimus.png'
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import softuni from './company/softuni-blue.png';
 import tesla from "./company/tesla.png";
 import yara from './company/yara.png'
-
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -61,6 +61,7 @@ export {
   meta,
   shopify,
   starbucks,
+  softuni,
   tesla,
   yara,
   carrent,
