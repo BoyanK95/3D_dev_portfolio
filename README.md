@@ -1,5 +1,8 @@
 # 3D Portfolio Website 
 
+<img width="1718" alt="Screenshot 2024-04-20 at 1 21 50" src="https://github.com/BoyanK95/3D_dev_portfolio/assets/92653208/8de87a31-58e1-40ca-8010-39b011994b80">
+
+
 This is a portfolio website built using React and Three.js, a 3D library for Javascript. The website showcases my portfolio in an interactive 3D environment, allowing visitors to explore my work and experience it in a new way. Hosted by vercel with a free domain!
 
 ## Demo 
