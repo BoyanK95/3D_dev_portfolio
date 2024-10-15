@@ -1,5 +1,5 @@
-import React from 'react';
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
+import PropTypes from 'prop-types';
 
 const ExperianceCard = ({ experience }) => {
     return (
@@ -30,6 +30,17 @@ const ExperianceCard = ({ experience }) => {
             </ul>
         </VerticalTimelineElement>
     );
+};
+
+ExperianceCard.propTypes = {
+    experience: PropTypes.shape({
+        date: PropTypes.string.isRequired,
+        iconBg: PropTypes.string.isRequired,
+        icon: PropTypes.string.isRequired,
+        company_name: PropTypes.string.isRequired,
+        title: PropTypes.string.isRequired,
+        points: PropTypes.arrayOf(PropTypes.string).isRequired,
+    }).isRequired,
 };
 
 export default ExperianceCard;

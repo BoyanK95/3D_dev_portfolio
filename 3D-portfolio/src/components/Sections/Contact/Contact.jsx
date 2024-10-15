@@ -1,10 +1,10 @@
 import React, { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
-import { styles } from '../style';
-import { SectionWrapper } from './hoc';
-import { slideIn } from './utils/motion';
-import EarthCanvas from './canvas/Earth';
+import { styles } from '../../../style';
+import { SectionWrapper } from '../../hoc';
+import { slideIn } from '../../utils/motion';
+import EarthCanvas from '../../canvas/Earth';
 
 const Contact = () => {
     const newForm = { name: '', email: '', message: '' };

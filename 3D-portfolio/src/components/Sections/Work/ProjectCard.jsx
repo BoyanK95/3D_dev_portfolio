@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { fadeIn } from './utils/motion';
+import { fadeIn } from '../../utils/motion';
 import { Tilt } from 'react-tilt';
-import { github } from '../assets';
+import { github } from '../../../assets';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
     return (

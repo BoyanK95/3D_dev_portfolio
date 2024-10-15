@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { fadeIn } from './utils/motion';
-import { noprofile } from '../assets';
+import { fadeIn } from '../../utils/motion';
+import { noprofile } from '../../../assets';
 
 const FeedbackCard = ({ index, testimonial, name, designation, company, image }) => {
     return (
