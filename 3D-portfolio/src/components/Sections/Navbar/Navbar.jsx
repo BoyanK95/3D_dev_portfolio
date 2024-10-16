@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { navLinks } from "../../../constants";
 import { menu, close, boyanpurplelogo } from "../../../assets";
@@ -7,6 +7,36 @@ import { styles } from "../../../style";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+
+  useEffect(() => {
+    const sectionIds = navLinks.map((nav) => nav.id);
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const activeNavItem = navLinks.find(
+              (nav) => nav.id === entry.target.id
+            );
+            setActive(activeNavItem ? activeNavItem.title : "");
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    sectionIds.forEach((id) => {
+      const element = document.getElementById(id);
+      if (element) observer.observe(element);
+    });
+
+    return () => {
+      sectionIds.forEach((id) => {
+        const element = document.getElementById(id);
+        if (element) observer.unobserve(element);
+      });
+    };
+  }, []);
 
   return (
     <nav
