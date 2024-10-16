@@ -1,14 +1,13 @@
 import { BrowserRouter } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import About from './components/About';
-import Hero from './components/Hero';
-import Loader from './components/Loader';
-import Teck from './components/Teck';
-import Work from './components/Work';
-import Contact from './components/Contact';
-import Feedback from './components/Feedback';
-import Experiance from './components/Experiance';
-import Footer from './components/Footer';
+import Navbar from './components/Sections/Navbar/Navbar';
+import About from './components/Sections/About/About';
+import Hero from './components/Sections/Intro/Hero';
+import Tech from './components/Sections/Tech/Tech';
+import Work from './components/Sections/Work/Work';
+import Contact from './components/Sections/Contact/Contact';
+import Feedback from './components/Sections/Feedback/Feedback';
+import Experiance from './components/Sections/Experiance/Experiance';
+import Footer from './components/Sections/Footer/Footer';
 
 const App = () => {
     return (
@@ -20,7 +19,7 @@ const App = () => {
                 </div>
                 <About />
                 <Experiance />
-                <Teck />
+                <Tech />
                 <Work />
                 <Feedback />
                 <div className='relative z-0'>

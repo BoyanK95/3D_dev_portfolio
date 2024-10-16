@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { styles } from '../style';
-import ComputerCanvas from './canvas/Computer';
-import MotionAncor from './MotionAncor';
+import { styles } from '../../../style';
+import ComputerCanvas from '../../canvas/Computer';
+import MotionAncor from '../../MotionAncor';
 
 const Hero = () => {
     return (

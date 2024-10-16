@@ -1,10 +1,10 @@
 import React from 'react';
-import BallCanvas from './canvas/Ball';
-import { SectionWrapper } from './hoc';
-import { technologies } from '../constants';
-import { styles } from '../style';
+import BallCanvas from '../../canvas/Ball'
+import { SectionWrapper } from '../../hoc';
+import { technologies } from '../../../constants';
+import { styles } from '../../../style';
 
-const Teck = () => {
+const Tech = () => {
     return (
         <>
             <h2 className={`${styles.sectionHeadText} text-center mb-5`}> Technologies:</h2>
@@ -19,4 +19,4 @@ const Teck = () => {
     );
 };
 
-export default SectionWrapper(Teck, '');
+export default SectionWrapper(Tech, '');
