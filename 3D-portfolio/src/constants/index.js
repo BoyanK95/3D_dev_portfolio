@@ -35,6 +35,10 @@ export const navLinks = [
     {
         id: 'contact',
         title: 'Contact'
+    },
+    {
+        id: 'footer',
+        title: 'Social Media'
     }
 ];
 
