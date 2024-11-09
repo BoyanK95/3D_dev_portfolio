@@ -1,4 +1,3 @@
-import React from 'react';
 import BallCanvas from '../../canvas/Ball'
 import { SectionWrapper } from '../../hoc';
 import { technologies } from '../../../constants';
@@ -19,4 +18,4 @@ const Tech = () => {
     );
 };
 
-export default SectionWrapper(Tech, '');
+export default SectionWrapper(Tech, 'tech');
