@@ -1,10 +1,11 @@
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
+import { SectionWrapper } from '../../hoc';
 
 function Footer() {
     return (
-        <footer className='bg-indigo-900 py-5'>
-            <div className='flex justify-center space-x-5 max-w-7xl mx-auto'>
+        <footer className='py-5'>
+            <div className='flex justify-center space-x-5 mx-auto'>
                 <a
                     href='https://www.facebook.com/boyan.nikolaev.3'
                     target='_blank'
@@ -42,4 +43,4 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default SectionWrapper(Footer, 'footer');

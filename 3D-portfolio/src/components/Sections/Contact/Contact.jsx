@@ -1,10 +1,11 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import { styles } from '../../../style';
 import { SectionWrapper } from '../../hoc';
 import { slideIn } from '../../utils/motion';
 import EarthCanvas from '../../canvas/Earth';
+import SocialMediaPointerButton from '../../SocialMediaPointerButton';
 
 const Contact = () => {
     const newForm = { name: '', email: '', message: '' };
@@ -118,6 +119,7 @@ const Contact = () => {
             >
                 <EarthCanvas />
             </motion.div>
+            <SocialMediaPointerButton />
         </div>
     );
 };
