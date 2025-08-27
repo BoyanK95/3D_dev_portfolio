@@ -17,6 +17,7 @@ import {
     docker,
     softuni,
     yara,
+    cyber,
     meetupAppCover,
     jobit,
     mernApp,
@@ -149,15 +150,15 @@ const experiences = [
         ]
     },
     {
-        title: 'Fullstack Developer`',
+        title: 'Fullstack Developer',
         company_name: 'Cyber Ark',
-        icon: yara,
+        icon: cyber,
         iconBg: '#E6DEDD',
         date: 'Oct 2025 - Present',
         points: [
-            'Developing and maintaining web applications using React, Golang, Java and other related technologies.',
+            'Developing and maintaining web applications for a top tier cyber security company using React, Golang, Java and other related technologies.',
             'Collaborating with worldwide diverse teams including designers, product managers, and other developers to create high-quality products.',
-            'Developing fast, secure and relaibale backend infrastrucute.',
+            'Developing fast, secure and relaibale backend infrastrucute, capable of handling large amounts of data.',
             'Implementing CI/CD pipelines.',
             'Implementing responsive design and ensuring cross-browser compatibility.',
             'Participating in code reviews and providing constructive feedback to other developers.'

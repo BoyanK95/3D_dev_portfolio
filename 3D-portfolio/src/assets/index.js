@@ -32,6 +32,7 @@ import yara from './company/yara.png'
 import meetupAppCover from './meetupapp.png'
 import mernApp from './mern-app.png'
 import jobit from "./jobit.png";
+import cyber from './company/cyber.png'
 
 export {
   logo,
@@ -64,6 +65,7 @@ export {
   softuni,
   tesla,
   yara,
+  cyber,
   meetupAppCover,
   jobit,
   mernApp,
