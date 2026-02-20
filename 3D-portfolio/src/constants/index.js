@@ -19,7 +19,7 @@ import {
     yara,
     cyber,
     meetupAppCover,
-    jobit,
+    noImage,
     mernApp,
     threejs,
     paoalto
@@ -246,7 +246,7 @@ const projects = [
                 color: 'pink-text-gradient'
             }
         ],
-        image: jobit,
+        image: noImage,
         source_code_link: 'https://github.com/BoyanK95/FinalProject_yara_internship2023'
     },
     {
