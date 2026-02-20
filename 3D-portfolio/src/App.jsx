@@ -6,7 +6,7 @@ import Tech from './components/Sections/Tech/Tech';
 import Work from './components/Sections/Work/Work';
 import Contact from './components/Sections/Contact/Contact';
 import Feedback from './components/Sections/Feedback/Feedback';
-import Experiance from './components/Sections/Experiance/Experiance';
+import Experience from './components/Sections/Experience/Experience';
 import Footer from './components/Sections/Footer/Footer';
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
                     <Hero />
                 </div>
                 <About />
-                <Experiance />
+                <Experience />
                 <Tech />
                 <Work />
                 <Feedback />

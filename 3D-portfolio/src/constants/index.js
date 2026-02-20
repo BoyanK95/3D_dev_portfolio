@@ -17,6 +17,7 @@ import {
     docker,
     softuni,
     yara,
+    cyber,
     meetupAppCover,
     jobit,
     mernApp,
@@ -135,19 +136,34 @@ const experiences = [
         ]
     },
     {
-        title: 'React-Typescript Developer',
+        title: 'Fullstack Developer',
         company_name: 'Yara International',
         icon: yara,
         iconBg: '#E6DEDD',
-        date: 'Feb 2023 - Present',
+        date: 'Feb 2023 - Oct 2025',
         points: [
-            'Developing and maintaining web applications using React.js and other related technologies.',
+            'Developing and maintaining web applications using React.js, Nest and other related technologies.',
+            'Maintaining and improving existing applications.',
             'Collaborating with worldwide diverse teams including designers, product managers, and other developers to create high-quality products.',
             'Implementing responsive design and ensuring cross-browser compatibility.',
             'Participating in code reviews and providing constructive feedback to other developers.'
         ]
     },
-    
+    {
+        title: 'Fullstack Developer',
+        company_name: 'Cyber Ark',
+        icon: cyber,
+        iconBg: '#E6DEDD',
+        date: 'Oct 2025 - Present',
+        points: [
+            'Developing and maintaining web applications for a top tier cyber security company using React, Golang, Java and other related technologies.',
+            'Collaborating with worldwide diverse teams including designers, product managers, and other developers to create high-quality products.',
+            'Developing fast, secure and relaibale backend infrastrucute, capable of handling large amounts of data.',
+            'Implementing CI/CD pipelines.',
+            'Implementing responsive design and ensuring cross-browser compatibility.',
+            'Participating in code reviews and providing constructive feedback to other developers.'
+        ]
+    }
 ];
 
 const testimonials = [
@@ -170,15 +186,14 @@ const testimonials = [
         testimonial: "After Boyan optimized our website, our traffic increased by 50%. We can't thank them enough!",
         name: 'Denis Kanh',
         designation: 'Custumer Support',
-        company: 'Crypto.com',
+        company: 'Crypto.com'
     }
 ];
 
 const projects = [
     {
         name: 'MeetUp App',
-        description:
-            'Single-page application platform created with NextJS that allows users to create a meet up.',
+        description: 'Single-page application platform created with NextJS that allows users to create a meet up.',
         tags: [
             {
                 name: 'nextjs',
