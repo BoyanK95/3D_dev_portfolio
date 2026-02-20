@@ -20,7 +20,12 @@ const ExperienceCard = ({ experience }) => {
         >
             <div>
                 <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
-                <p className='text-purple-400 text-[16px] font-semibold' style={{margin: 0}}>{experience.company_name}</p>
+                <p className='text-purple-400 text-[16px] font-semibold' style={{ margin: 0 }}>
+                    {experience.company_name}
+                </p>
+                {experience.subtitle ? (
+                    <p className='text-secondary text-[14px] font-medium'>{experience.subtitle}</p>
+                ) : null}
             </div>
 
             <ul className='mt-5 list-disc ml-5 space-y-2'>
@@ -39,8 +44,8 @@ ExperienceCard.propTypes = {
         icon: PropTypes.string.isRequired,
         company_name: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
-        points: PropTypes.arrayOf(PropTypes.string).isRequired,
-    }).isRequired,
+        points: PropTypes.arrayOf(PropTypes.string).isRequired
+    }).isRequired
 };
 
 export default ExperienceCard;

@@ -153,6 +153,7 @@ const experiences = [
     {
         title: 'Fullstack Developer',
         company_name: 'Cyber Ark',
+        subtitle: '(Acquired by Palo Alto Networks)',
         icon: cyber,
         iconBg: '#E6DEDD',
         date: 'Oct 2025 - Feb 2026',
@@ -165,6 +166,7 @@ const experiences = [
     {
         title: 'Fullstack Developer',
         company_name: 'Palo Alto Networks',
+        subtitle: '(After the acquisition of Cyber Ark)',
         icon: paoalto,
         iconBg: '#E6DEDD',
         date: 'Feb 2026 - Present',
