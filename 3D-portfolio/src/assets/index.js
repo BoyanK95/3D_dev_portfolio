@@ -33,6 +33,7 @@ import meetupAppCover from './meetupapp.png'
 import mernApp from './mern-app.png'
 import jobit from "./jobit.png";
 import cyber from './company/cyber.png'
+import paoalto from './company/paoalto.png'
 
 export {
   logo,
@@ -66,6 +67,7 @@ export {
   tesla,
   yara,
   cyber,
+  paoalto,
   meetupAppCover,
   jobit,
   mernApp,
