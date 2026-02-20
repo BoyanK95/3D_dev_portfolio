@@ -5,11 +5,11 @@ import { projects } from '../../../constants';
 import { fadeIn, textVariant } from '../../utils/motion';
 import ProjectCard from './ProjectCard';
 
-const Work = () => {
+const Projects = () => {
     return (
         <>
             <motion.div variants={textVariant()}>
-                <p className={styles.sectionSubText}>My Work</p>
+                <p className={styles.sectionSubText}>My personal</p>
                 <h2 className={styles.sectionHeadText}>Projects.</h2>
             </motion.div>
 
@@ -30,4 +30,4 @@ const Work = () => {
     );
 };
 
-export default SectionWrapper(Work, '');
+export default SectionWrapper(Projects, 'projects');
