@@ -21,7 +21,8 @@ import {
     meetupAppCover,
     jobit,
     mernApp,
-    threejs
+    threejs,
+    paoalto
 } from '../assets';
 
 export const navLinks = [
@@ -152,16 +153,28 @@ const experiences = [
     {
         title: 'Fullstack Developer',
         company_name: 'Cyber Ark',
+        subtitle: '(Acquired by Palo Alto Networks)',
         icon: cyber,
         iconBg: '#E6DEDD',
-        date: 'Oct 2025 - Present',
+        date: 'Oct 2025 - Feb 2026',
         points: [
             'Developing and maintaining web applications for a top tier cyber security company using React, Golang, Java and other related technologies.',
             'Collaborating with worldwide diverse teams including designers, product managers, and other developers to create high-quality products.',
-            'Developing fast, secure and relaibale backend infrastrucute, capable of handling large amounts of data.',
-            'Implementing CI/CD pipelines.',
-            'Implementing responsive design and ensuring cross-browser compatibility.',
-            'Participating in code reviews and providing constructive feedback to other developers.'
+            'Developing fast, secure and relaibale backend infrastrucute, capable of handling large amounts of data.'
+        ]
+    },
+    {
+        title: 'Fullstack Developer',
+        company_name: 'Palo Alto Networks',
+        subtitle: '(After the acquisition of Cyber Ark)',
+        icon: paoalto,
+        iconBg: '#E6DEDD',
+        date: 'Feb 2026 - Present',
+        points: [
+            'Continued my career at Palo Alto Networks as a Fullstack Developer after the acquisition of Cyber Ark.',
+            'Actively involved in the migration of CyberArk products to Palo Alto Networks',
+            'Improved legacy codebase and code quality during migration of CyberArk products to Palo Alto Networks.',
+            'Continued to work with React, Golang, Java and other related technologies.'
         ]
     }
 ];
