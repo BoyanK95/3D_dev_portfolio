@@ -1,7 +1,7 @@
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 import PropTypes from 'prop-types';
 
-const ExperianceCard = ({ experience }) => {
+const ExperienceCard = ({ experience }) => {
     return (
         <VerticalTimelineElement
             contentStyle={{ background: '#1d1836', color: '#fff' }}
@@ -32,7 +32,7 @@ const ExperianceCard = ({ experience }) => {
     );
 };
 
-ExperianceCard.propTypes = {
+ExperienceCard.propTypes = {
     experience: PropTypes.shape({
         date: PropTypes.string.isRequired,
         iconBg: PropTypes.string.isRequired,
@@ -43,4 +43,4 @@ ExperianceCard.propTypes = {
     }).isRequired,
 };
 
-export default ExperianceCard;
+export default ExperienceCard;
