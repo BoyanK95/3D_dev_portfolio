@@ -24,6 +24,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import noprofile from './profile-icon-anonimus.png'
 import meta from "./company/meta.png";
+import noImage from './no-image.png'
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import softuni from './company/softuni-blue.png';
@@ -31,7 +32,6 @@ import tesla from "./company/tesla.png";
 import yara from './company/yara.png'
 import meetupAppCover from './meetupapp.png'
 import mernApp from './mern-app.png'
-import jobit from "./jobit.png";
 import cyber from './company/cyber.png'
 import paoalto from './company/paoalto.png'
 
@@ -69,7 +69,7 @@ export {
   cyber,
   paoalto,
   meetupAppCover,
-  jobit,
+  noImage,
   mernApp,
   noprofile
 };

@@ -5,11 +5,11 @@ import { projects } from '../../../constants';
 import { fadeIn, textVariant } from '../../utils/motion';
 import ProjectCard from './ProjectCard';
 
-const Work = () => {
+const Projects = () => {
     return (
         <>
             <motion.div variants={textVariant()}>
-                <p className={styles.sectionSubText}>My Work</p>
+                <p className={styles.sectionSubText}>My personal</p>
                 <h2 className={styles.sectionHeadText}>Projects.</h2>
             </motion.div>
 
@@ -19,15 +19,18 @@ const Work = () => {
                     className='mt-3 max-w-3xl text-secondary text-[17px] leading-[30px]'
                 >
                     Following projects showcases my skills and experience through real-world examples of my work. Each
-                    project is briefly described with links to the code repositories. I will soon be uploading more projects as I am working on several at the moment!
+                    project is briefly described with links to the code repositories. I will soon be uploading more
+                    projects as I am working on several at the moment!
                 </motion.p>
             </div>
 
             <div className='mt-20 flex flex-wrap gap-7'>
-                {projects.map((project, index) => <ProjectCard key={`project-${index}`} index={index} {...project}/>)}
+                {projects.map((project, index) => (
+                    <ProjectCard key={`project-${index}`} index={index} {...project} />
+                ))}
             </div>
         </>
     );
 };
 
-export default SectionWrapper(Work, '');
+export default SectionWrapper(Projects, 'projects');

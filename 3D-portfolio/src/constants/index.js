@@ -19,7 +19,7 @@ import {
     yara,
     cyber,
     meetupAppCover,
-    jobit,
+    noImage,
     mernApp,
     threejs,
     paoalto
@@ -33,6 +33,10 @@ export const navLinks = [
     {
         id: 'experience',
         title: 'Experience'
+    },
+    {
+        id: 'projects',
+        title: 'Projects'
     },
     {
         id: 'contact',
@@ -242,11 +246,11 @@ const projects = [
                 color: 'pink-text-gradient'
             }
         ],
-        image: jobit,
+        image: noImage,
         source_code_link: 'https://github.com/BoyanK95/FinalProject_yara_internship2023'
     },
     {
-        name: 'Balcan Properties',
+        name: 'Balkan Properties',
         description:
             'A MERN stack application that allows users to search for properties to rent buy and also to post their own apartments or houses in any given city ',
         tags: [
